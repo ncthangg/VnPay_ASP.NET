@@ -1,0 +1,14 @@
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\bin\Debug\net8.0\VNPAYSystem.Data.deps.json
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\bin\Debug\net8.0\VNPAYSystem.Data.runtimeconfig.json
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\bin\Debug\net8.0\VNPAYSystem.Data.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\bin\Debug\net8.0\VNPAYSystem.Data.pdb
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\VNPAYSystem.Data.csproj.AssemblyReference.cache
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\VNPAYSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\VNPAYSystem.Data.AssemblyInfoInputs.cache
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\VNPAYSystem.Data.AssemblyInfo.cs
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\VNPAYSystem.Data.csproj.CoreCompileInputs.cache
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\VNPAYSystem.Data.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\refint\VNPAYSystem.Data.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\VNPAYSystem.Data.pdb
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\VNPAYSystem.Data.genruntimeconfig.cache
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\ref\VNPAYSystem.Data.dll

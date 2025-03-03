@@ -1,0 +1,15 @@
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\bin\Debug\net8.0\VNPAYSystem.Common.deps.json
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\bin\Debug\net8.0\VNPAYSystem.Common.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\bin\Debug\net8.0\VNPAYSystem.Common.pdb
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\VNPAYSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\VNPAYSystem.Common.AssemblyInfoInputs.cache
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\VNPAYSystem.Common.AssemblyInfo.cs
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\VNPAYSystem.Common.csproj.CoreCompileInputs.cache
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\VNPAYSystem.Common.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\refint\VNPAYSystem.Common.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\VNPAYSystem.Common.pdb
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\ref\VNPAYSystem.Common.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\bin\Debug\net8.0\VNPAYSystem.Data.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\bin\Debug\net8.0\VNPAYSystem.Data.pdb
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\VNPAYSystem.Common.csproj.AssemblyReference.cache
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\VNPAYSys.FA08A338.Up2Date

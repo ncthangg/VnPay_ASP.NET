@@ -1,0 +1,17 @@
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\bin\Debug\net8.0\VNPAYSystem.Service.deps.json
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\bin\Debug\net8.0\VNPAYSystem.Service.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\bin\Debug\net8.0\VNPAYSystem.Service.pdb
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\bin\Debug\net8.0\VNPAYSystem.Common.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\bin\Debug\net8.0\VNPAYSystem.Data.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\bin\Debug\net8.0\VNPAYSystem.Common.pdb
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\bin\Debug\net8.0\VNPAYSystem.Data.pdb
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\obj\Debug\net8.0\VNPAYSystem.Service.csproj.AssemblyReference.cache
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\obj\Debug\net8.0\VNPAYSystem.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\obj\Debug\net8.0\VNPAYSystem.Service.AssemblyInfoInputs.cache
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\obj\Debug\net8.0\VNPAYSystem.Service.AssemblyInfo.cs
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\obj\Debug\net8.0\VNPAYSystem.Service.csproj.CoreCompileInputs.cache
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\obj\Debug\net8.0\VNPAYSys.9FBF97D0.Up2Date
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\obj\Debug\net8.0\VNPAYSystem.Service.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\obj\Debug\net8.0\refint\VNPAYSystem.Service.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\obj\Debug\net8.0\VNPAYSystem.Service.pdb
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Service\obj\Debug\net8.0\ref\VNPAYSystem.Service.dll
