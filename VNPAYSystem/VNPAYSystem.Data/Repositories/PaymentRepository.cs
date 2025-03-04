@@ -12,13 +12,22 @@ namespace VNPAYSystem.Data.Repositories
         }
         public PaymentRepository(VNPAY_TestDBContext context) => _context = context;
 
-        public async Task<Payment> GetByOrderCode(string orderCode)
+        public async Task<Payment> GetByOrderCode(string? orderCode)
         {
             return await _context.Set<Payment>()
-                        .Include(p => p.Order)
-                        .Where(p => p.Order.OrderCode == orderCode)
-                        .OrderByDescending(p => p.Id)
-                        .FirstOrDefaultAsync();
+                .Where(p => p.OrderCode == orderCode)
+                .OrderByDescending(p => p.Id)
+                .FirstOrDefaultAsync();
         }
+
+        public async Task<Payment> GetByPaymentCode(string? paymentCode)
+        {
+            return await _context.Set<Payment>()
+                .Where(p => p.PaymentCode == paymentCode)
+                .OrderByDescending(p => p.Id)
+                .FirstOrDefaultAsync();
+        }
+
+
     }
 }

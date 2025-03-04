@@ -13,3 +13,4 @@ E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\bin\Debug\net8.0\VNPAYSystem.D
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\bin\Debug\net8.0\VNPAYSystem.Data.pdb
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\VNPAYSystem.Common.csproj.AssemblyReference.cache
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\VNPAYSys.FA08A338.Up2Date
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Common\obj\Debug\net8.0\VNPAYSystem.Common.sourcelink.json

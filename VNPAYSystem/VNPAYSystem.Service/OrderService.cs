@@ -8,10 +8,9 @@ namespace VNPAYSystem.Service
     public interface IOrderService
     {
         Task<List<Order>> GetAll();
-        Task<Order> GetById(int id);
+        Task<Order> GetById(string code);
         Task<Order> Create(OrderReq x);
-        Task<Order> Update(int id, OrderDto x);
-        Task<int> Delete(int id);
+        Task<int> Delete(string code);
     }
     public class OrderService : IOrderService
     {
@@ -24,38 +23,26 @@ namespace VNPAYSystem.Service
         {
             return await _unitOfWork.OrderRepository.GetAllAsync();
         }
-        public async Task<Order> GetById(int id)
+        public async Task<Order> GetById(string code)
         {
-            return await _unitOfWork.OrderRepository.GetByIdAsync(id);
+            return await _unitOfWork.OrderRepository.GetByIdAsync(code);
         }
         public async Task<Order> Create(OrderReq x)
         {
+            var tick = DateTime.Now.Ticks.ToString();
             var order = new Order()
             {
+                OrderCode = $"{x.UserId}{tick}",
                 UserId = x.UserId,
-                OrderCode = DateTime.Now.ToString("yyyyMMddHHmmss"),
                 Amount = x.Amount,
-                Status = "pending",
+                Status = "Pending",
                 CreatedAt = DateTime.Now,
             };
             return await _unitOfWork.OrderRepository.CreateAsync(order);
         }
-        public async Task<Order> Update(int id, OrderDto x)
+        public async Task<int> Delete(string code)
         {
-            var order = new Order()
-            {
-                Id = x.Id,
-                UserId = x.UserId,
-                OrderCode = x.OrderCode,
-                Amount = x.Amount,
-                Status = x.Status,
-                CreatedAt = DateTime.UtcNow,
-            };
-            return await _unitOfWork.OrderRepository.UpdateAsync(order);
-        }
-        public async Task<int> Delete(int id)
-        {
-            var order = await _unitOfWork.OrderRepository.GetByIdAsync(id);
+            var order = await _unitOfWork.OrderRepository.GetByIdAsync(code);
             var result = await _unitOfWork.OrderRepository.RemoveAsync(order);
             if (!result)
             {

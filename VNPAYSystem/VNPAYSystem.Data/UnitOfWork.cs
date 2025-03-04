@@ -6,7 +6,6 @@ namespace VNPAYSystem.Data
     public class UnitOfWork
     {
         private UserRepository _userRepository;
-        private WalletRepository _walletRepository;
         private PaymentRepository _paymentRepository;
         private OrderRepository _orderRepository;
 
@@ -22,13 +21,6 @@ namespace VNPAYSystem.Data
             get
             {
                 return _userRepository ??= new Repositories.UserRepository(_dbContext);
-            }
-        }
-        public WalletRepository WalletRepository
-        {
-            get
-            {
-                return _walletRepository ??= new Repositories.WalletRepository(_dbContext);
             }
         }
         public PaymentRepository PaymentRepository

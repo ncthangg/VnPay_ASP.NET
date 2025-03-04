@@ -1,7 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Globalization;
 using VNPAYSystem.Common.DTOs.Response;
-using VNPAYSystem.Data;
 using VNPAYSystem.Data.Models;
 using VNPAYSystem.Service;
 
@@ -50,10 +48,10 @@ namespace VNPAYSystem.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<PaymentRes>> CreatePayment(int orderId)
+        public async Task<ActionResult<PaymentRes>> CreatePayment(string orderCode)
         {
 
-            var result = await _paymentService.Create(orderId);
+            var result = await _paymentService.Create(orderCode);
 
             if (result == null)
             {
@@ -64,41 +62,5 @@ namespace VNPAYSystem.API.Controllers
         }
 
 
-
-
-
-        //// PUT: api/payments/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<ActionResult<Payment>> PutPayment(int id, PaymentDto payment)
-        //{
-        //    if (id != payment.Id)
-        //    {
-        //        return BadRequest();
-        //    }
-
-        //    var result = await _paymentService.Update(id, payment);
-
-        //    if (result == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return result;
-        //}
-
-        //// DELETE: api/payments/5
-        //[HttpDelete("{id}")]
-        //public async Task<ActionResult<int>> DeletePayment(int id)
-        //{
-        //    var result = await _paymentService.Delete(id);
-
-        //    if (result < 0)
-        //    {
-        //        return 0;
-        //    }
-
-        //    return 1;
-        //}
     }
 }

@@ -9,9 +9,13 @@ public partial class Payment
 {
     public int Id { get; set; }
 
-    public int OrderId { get; set; }
+    public string OrderCode { get; set; }
 
     public int UserId { get; set; }
+
+    public int? PaymentAttempt { get; set; }
+
+    public string PaymentCode { get; set; }
 
     public string VnpayTransactionId { get; set; }
 
@@ -25,7 +29,7 @@ public partial class Payment
 
     public string ResponseCode { get; set; }
 
-    public virtual Order Order { get; set; }
+    public virtual Order OrderCodeNavigation { get; set; }
 
-    public virtual Wallet User { get; set; }
+    public virtual User User { get; set; }
 }

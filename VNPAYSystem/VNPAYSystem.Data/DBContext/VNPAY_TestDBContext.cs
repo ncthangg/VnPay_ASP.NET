@@ -25,8 +25,6 @@ public partial class VNPAY_TestDBContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
-    public virtual DbSet<Wallet> Wallets { get; set; }
-
     public static string GetConnectionString(string connectionStringName)
     {
         var config = new ConfigurationBuilder()
@@ -44,20 +42,15 @@ public partial class VNPAY_TestDBContext : DbContext
     //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
     //        => optionsBuilder.UseSqlServer("Data Source=LAPTOP-SSAEKEN0;Initial Catalog=VNPAY_TestDB;User ID=sa;Password=12345");
-
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Orders__3214EC0762C5654A");
+            entity.HasKey(e => e.OrderCode).HasName("PK__Orders__999B5228A05A7536");
 
-            entity.HasIndex(e => e.OrderCode, "UQ__Orders__999B52293E7B4066").IsUnique();
-
+            entity.Property(e => e.OrderCode).HasMaxLength(200);
             entity.Property(e => e.Amount).HasColumnType("decimal(18, 2)");
             entity.Property(e => e.CreatedAt).HasColumnType("datetime");
-            entity.Property(e => e.OrderCode)
-                .IsRequired()
-                .HasMaxLength(50);
             entity.Property(e => e.Status)
                 .HasMaxLength(20)
                 .HasDefaultValue("Pending");
@@ -69,33 +62,35 @@ public partial class VNPAY_TestDBContext : DbContext
 
         modelBuilder.Entity<Payment>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Payments__3214EC07F62B6C54");
+            entity.HasKey(e => e.Id).HasName("PK__Payments__3214EC0786E30DBB");
 
             entity.Property(e => e.Amount).HasColumnType("decimal(18, 2)");
             entity.Property(e => e.BankCode).HasMaxLength(20);
+            entity.Property(e => e.OrderCode).HasMaxLength(200);
+            entity.Property(e => e.PaymentAttempt).HasDefaultValue(1);
+            entity.Property(e => e.PaymentCode).HasMaxLength(200);
             entity.Property(e => e.PaymentStatus)
-                .IsRequired()
-                .HasMaxLength(20);
+                .HasMaxLength(20)
+                .HasDefaultValue("Pending");
             entity.Property(e => e.PaymentTime).HasColumnType("datetime");
             entity.Property(e => e.ResponseCode).HasMaxLength(10);
-            entity.Property(e => e.VnpayTransactionId)
-                .IsRequired()
-                .HasMaxLength(50);
+            entity.Property(e => e.VnpayTransactionId).HasMaxLength(50);
 
-            entity.HasOne(d => d.Order).WithMany(p => p.Payments)
-                .HasForeignKey(d => d.OrderId)
-                .HasConstraintName("FK_Payments_Order");
+            entity.HasOne(d => d.OrderCodeNavigation).WithMany(p => p.Payments)
+                .HasForeignKey(d => d.OrderCode)
+                .HasConstraintName("FK_Payments_Orders");
 
             entity.HasOne(d => d.User).WithMany(p => p.Payments)
                 .HasForeignKey(d => d.UserId)
-                .HasConstraintName("FK_Payments_User");
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Payments_Users");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__Users__3214EC07D482C9E6");
+            entity.HasKey(e => e.Id).HasName("PK__Users__3214EC071EABF948");
 
-            entity.HasIndex(e => e.Email, "UQ__Users__A9D10534EB97F228").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Users__A9D105344AA479A2").IsUnique();
 
             entity.Property(e => e.CreatedAt).HasColumnType("datetime");
             entity.Property(e => e.Email)
@@ -108,23 +103,6 @@ public partial class VNPAY_TestDBContext : DbContext
                 .IsRequired()
                 .HasMaxLength(100);
             entity.Property(e => e.Phone).HasMaxLength(15);
-        });
-
-        modelBuilder.Entity<Wallet>(entity =>
-        {
-            entity.HasKey(e => e.UserId).HasName("PK__Wallet__1788CC4CBC453138");
-
-            entity.ToTable("Wallet");
-
-            entity.Property(e => e.UserId).ValueGeneratedNever();
-            entity.Property(e => e.Balance).HasColumnType("decimal(18, 2)");
-            entity.Property(e => e.CreatedAt).HasColumnType("datetime");
-            entity.Property(e => e.UpdatedAt).HasColumnType("datetime");
-
-            entity.HasOne(d => d.User).WithOne(p => p.Wallet)
-                .HasForeignKey<Wallet>(d => d.UserId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Wallet_User");
         });
 
         OnModelCreatingPartial(modelBuilder);

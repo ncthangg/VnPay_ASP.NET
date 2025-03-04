@@ -12,3 +12,4 @@ E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\refint\VNPAYSys
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\VNPAYSystem.Data.pdb
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\VNPAYSystem.Data.genruntimeconfig.cache
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\ref\VNPAYSystem.Data.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.Data\obj\Debug\net8.0\VNPAYSystem.Data.sourcelink.json

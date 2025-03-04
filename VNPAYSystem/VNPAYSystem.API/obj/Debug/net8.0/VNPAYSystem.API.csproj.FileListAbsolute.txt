@@ -264,4 +264,4 @@ E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.API\obj\Debug\net8.0\refint\VNPAYSyst
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.API\obj\Debug\net8.0\VNPAYSystem.API.pdb
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.API\obj\Debug\net8.0\VNPAYSystem.API.genruntimeconfig.cache
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.API\obj\Debug\net8.0\ref\VNPAYSystem.API.dll
-E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.API\obj\Debug\net8.0\VNPAYSystem.API.MvcApplicationPartsAssemblyInfo.cs
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.API\obj\Debug\net8.0\VNPAYSystem.API.sourcelink.json

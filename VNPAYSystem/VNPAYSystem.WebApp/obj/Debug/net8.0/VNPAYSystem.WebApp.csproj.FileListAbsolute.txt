@@ -28,3 +28,4 @@ E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.WebApp\obj\Debug\net8.0\refint\VNPAYS
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.WebApp\obj\Debug\net8.0\VNPAYSystem.WebApp.pdb
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.WebApp\obj\Debug\net8.0\VNPAYSystem.WebApp.genruntimeconfig.cache
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.WebApp\obj\Debug\net8.0\ref\VNPAYSystem.WebApp.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.WebApp\obj\Debug\net8.0\VNPAYSystem.WebApp.sourcelink.json

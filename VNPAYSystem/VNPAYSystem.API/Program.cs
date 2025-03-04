@@ -12,7 +12,6 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IPaymentService, PaymentService>();
 builder.Services.AddScoped<IOrderService, OrderService>();
-builder.Services.AddScoped<IWalletService, WalletService>();
 
 builder.Services.AddScoped<IVNPayService, VNPayService>();
 

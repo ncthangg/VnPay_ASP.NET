@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
 using System.Globalization;
-using VNPAYSystem.Common.DTOs;
 using VNPAYSystem.Common.DTOs.Response;
 using VNPAYSystem.Data;
 using VNPAYSystem.Data.Models;
@@ -12,7 +11,7 @@ namespace VNPAYSystem.Service
     {
         Task<List<Payment>> GetAll();
         Task<Payment> GetById(int id);
-        Task<PaymentRes> Create(int orderId);
+        Task<PaymentRes> Create(string orderCode);
         Task<int> Delete(int id);
 
         Task<bool> ProcessVNPayIPN(IQueryCollection queryParams);
@@ -36,25 +35,61 @@ namespace VNPAYSystem.Service
         {
             return await _unitOfWork.PaymentRepository.GetByIdAsync(id);
         }
-        public async Task<PaymentRes> Create(int orderId)
+        public async Task<PaymentRes> Create(string orderCode)
         {
-            var order = _unitOfWork.OrderRepository.GetById(orderId);
-            var Payment = new Payment()
+            var order = await _unitOfWork.OrderRepository.GetByIdAsync(orderCode);
+            if( order.Status.Equals("Success") || order.Status.Equals("Fail") )
             {
-                OrderId = order.Id,
+                throw new Exception("Đơn hàng đã thanh toán hoặc đã bị hủy");
+            }
+
+            var payment = await _unitOfWork.PaymentRepository.GetByOrderCode(orderCode);
+            string paymentLink = "";
+            if (payment != null)
+            {
+                // Tăng giá trị lên 1 rồi chuyển lại thành string
+                var newPaymentAttempt = payment.PaymentAttempt + 1;
+
+                string newPaymentCode = $"{orderCode}{newPaymentAttempt}";
+
+                var Payment = new Payment()
+                {
+                    OrderCode = order.OrderCode,
+                    UserId = order.UserId,
+                    Amount = order.Amount,
+                    PaymentCode = newPaymentCode,
+                    PaymentAttempt= newPaymentAttempt,
+                    VnpayTransactionId = null,
+                    PaymentStatus = null,
+                    PaymentTime = null,
+                    BankCode = null,
+                    ResponseCode = null,
+                };
+                await _unitOfWork.PaymentRepository.CreateAsync(Payment);
+                paymentLink = await _VNPayService.CreatePaymentURL(newPaymentCode, order.Amount);
+                return new PaymentRes()
+                {
+                    Payment = Payment,
+                    Link = paymentLink,
+                };
+            }
+
+            var NewPayment = new Payment()
+            {
+                OrderCode = order.OrderCode,
                 UserId = order.UserId,
                 Amount = order.Amount,
-                VnpayTransactionId = null,
+                PaymentCode = null,
                 PaymentStatus = null,
                 PaymentTime = null,
                 BankCode = null,
                 ResponseCode = null,
             };
-            await _unitOfWork.PaymentRepository.CreateAsync(Payment);
-            var paymentLink = _VNPayService.CreatePaymentURL(order.OrderCode, order.Amount);
+            await _unitOfWork.PaymentRepository.CreateAsync(NewPayment);
+            paymentLink = await _VNPayService.CreatePaymentURL(order.OrderCode, order.Amount);
             return new PaymentRes()
             {
-                Payment = Payment,
+                Payment = NewPayment,
                 Link = paymentLink,
             };
         }
@@ -70,26 +105,33 @@ namespace VNPAYSystem.Service
         }
 
 
-        public async Task<bool> ProcessVNPayIPN(IQueryCollection queryParams)
+        public async Task<bool> ProcessVNPayIPN(IQueryCollection collections)
         {
+            var result = _VNPayService.PaymentExecute(collections);
             // **Bước 1: Kiểm tra chữ ký bảo mật**
-            if (!_VNPayService.ValidateSignature(queryParams))
+            if (result.Success == false)
             {
                 return false;
             }
 
-            var vnp_ResponseCode = queryParams["vnp_ResponseCode"];
-            var vnp_TransactionNo = queryParams["vnp_TransactionNo"];
-            var vnp_TxnRef = queryParams["vnp_TxnRef"];
-            var vnp_Amount = queryParams["vnp_Amount"];
-            var vnp_BankCode = queryParams["vnp_BankCode"];
-            var vnp_PayDate = queryParams["vnp_PayDate"];
-            var vnp_SecureHash = queryParams["vnp_SecureHash"];
+            var vnp_ResponseCode = collections["vnp_ResponseCode"];
+            var vnp_TransactionNo = collections["vnp_TransactionNo"];
+            var vnp_TxnRef = collections["vnp_TxnRef"].ToString();
+            var vnp_Amount = collections["vnp_Amount"];
+            var vnp_BankCode = collections["vnp_BankCode"];
+            var vnp_PayDate = collections["vnp_PayDate"];
+            var vnp_SecureHash = collections["vnp_SecureHash"];
 
 
             // **Bước 2: Kiểm tra đơn hàng tồn tại**
-            var payment = await _unitOfWork.PaymentRepository.GetByOrderCode(vnp_TxnRef);
+            var payment = await _unitOfWork.PaymentRepository.GetByPaymentCode(result.OrderId);
             if (payment == null)
+            {
+                return false;
+            }
+
+            var order = await _unitOfWork.OrderRepository.GetByIdAsync(payment.OrderCode);
+            if (order == null)
             {
                 return false;
             }
@@ -102,15 +144,23 @@ namespace VNPAYSystem.Service
                 payment.PaymentTime = DateTime.ParseExact(vnp_PayDate, "yyyyMMddHHmmss", CultureInfo.InvariantCulture);
                 payment.BankCode = vnp_BankCode;
                 payment.ResponseCode = vnp_ResponseCode;
+
+                order.Status = "Success";
             }
             else
             {
                 payment.PaymentStatus = "Failed";
                 payment.ResponseCode = vnp_ResponseCode;
+
+                order.Status = "Fail";
             }
+            
+
 
             await _unitOfWork.PaymentRepository.UpdateAsync(payment);
+            await _unitOfWork.OrderRepository.UpdateAsync(order);
             return true;
         }
+
     }
 }

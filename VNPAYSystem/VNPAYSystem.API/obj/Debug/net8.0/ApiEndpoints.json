@@ -54,39 +54,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "VNPAYSystem.Data.Models.Order",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "VNPAYSystem.API.Controllers.OrdersController",
-    "Method": "PutOrder",
-    "RelativePath": "api/Orders/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
+        "Name": "code",
+        "Type": "System.String",
+        "IsRequired": false
       },
       {
-        "Name": "order",
-        "Type": "VNPAYSystem.Common.DTOs.OrderDto",
+        "Name": "id",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -111,8 +85,13 @@
     "Order": 0,
     "Parameters": [
       {
+        "Name": "orderCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
         "Name": "id",
-        "Type": "System.Int32",
+        "Type": "",
         "IsRequired": true
       }
     ],
@@ -157,8 +136,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "orderId",
-        "Type": "System.Int32",
+        "Name": "orderCode",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -212,7 +191,7 @@
   },
   {
     "ContainingType": "VNPAYSystem.API.Controllers.UsersController",
-    "Method": "Postuser",
+    "Method": "Login",
     "RelativePath": "api/Users",
     "HttpMethod": "POST",
     "IsController": true,
@@ -227,140 +206,6 @@
     "ReturnTypes": [
       {
         "Type": "VNPAYSystem.Data.Models.User",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "VNPAYSystem.API.Controllers.WalletsController",
-    "Method": "GetWallets",
-    "RelativePath": "api/Wallets",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[VNPAYSystem.Data.Models.Wallet, VNPAYSystem.Data, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "VNPAYSystem.API.Controllers.WalletsController",
-    "Method": "PostWallet",
-    "RelativePath": "api/Wallets",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Wallet",
-        "Type": "VNPAYSystem.Common.DTOs.WalletDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "VNPAYSystem.Data.Models.Wallet",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "VNPAYSystem.API.Controllers.WalletsController",
-    "Method": "GetWallet",
-    "RelativePath": "api/Wallets/{id}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "VNPAYSystem.Data.Models.Wallet",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "VNPAYSystem.API.Controllers.WalletsController",
-    "Method": "PutWallet",
-    "RelativePath": "api/Wallets/{id}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "Wallet",
-        "Type": "VNPAYSystem.Common.DTOs.WalletDto",
-        "IsRequired": true
-      },
-      {
-        "Name": "id",
-        "Type": "",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "VNPAYSystem.Data.Models.Wallet",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "VNPAYSystem.API.Controllers.WalletsController",
-    "Method": "DeleteWallet",
-    "RelativePath": "api/Wallets/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Int32",
         "MediaTypes": [
           "text/plain",
           "application/json",

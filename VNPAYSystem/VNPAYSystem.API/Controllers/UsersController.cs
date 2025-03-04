@@ -17,7 +17,7 @@ namespace VNPAYSystem.API.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<User>> Postuser(LoginDto user)
+        public async Task<ActionResult<User>> Login(LoginDto user)
         {
 
             var result = await _userService.Login(user.Email, user.Password);

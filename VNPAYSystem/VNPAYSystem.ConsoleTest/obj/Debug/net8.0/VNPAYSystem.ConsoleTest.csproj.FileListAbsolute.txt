@@ -78,3 +78,4 @@ E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.ConsoleTest\bin\Debug\net8.0\appsetti
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.ConsoleTest\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Abstractions.dll
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.ConsoleTest\bin\Debug\net8.0\Microsoft.AspNetCore.Http.Features.dll
 E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.ConsoleTest\bin\Debug\net8.0\System.IO.Pipelines.dll
+E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.ConsoleTest\obj\Debug\net8.0\VNPAYSystem.ConsoleTest.sourcelink.json
