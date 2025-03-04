@@ -13,7 +13,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 322,
+          "DockedWidth": 402,
           "SelectedChildIndex": 3,
           "Children": [
             {
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "VNPAYSystem.Service\\PaymentService.cs",
               "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\PaymentService.cs",
               "RelativeToolTip": "VNPAYSystem.Service\\PaymentService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAIAwwCkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T10:03:10.645Z",
               "EditorCaption": ""
