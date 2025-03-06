@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.service\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|solutionrelative:vnpaysystem.service\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.service\\helper\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|solutionrelative:vnpaysystem.service\\helper\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.common\\dtos\\response\\paymentres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|solutionrelative:vnpaysystem.common\\dtos\\response\\paymentres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.common\\dtos\\response\\vnpayres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|solutionrelative:vnpaysystem.common\\dtos\\response\\vnpayres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD92BD3A-5B06-4C1D-BE9E-821865AFA28F}|VNPAYSystem.API\\VNPAYSystem.API.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD92BD3A-5B06-4C1D-BE9E-821865AFA28F}|VNPAYSystem.API\\VNPAYSystem.API.csproj|solutionrelative:vnpaysystem.api\\controllers\\paymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD92BD3A-5B06-4C1D-BE9E-821865AFA28F}|VNPAYSystem.API\\VNPAYSystem.API.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD92BD3A-5B06-4C1D-BE9E-821865AFA28F}|VNPAYSystem.API\\VNPAYSystem.API.csproj|solutionrelative:vnpaysystem.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.common\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|solutionrelative:vnpaysystem.common\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,28 +47,12 @@
       "RelativeMoniker": "D:0:0:{B635777D-A9A0-4B76-A39C-5497E2419853}|VNPAYSystem.Data\\VNPAYSystem.Data.csproj|solutionrelative:vnpaysystem.data\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.common\\dtos\\response\\paymentres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|solutionrelative:vnpaysystem.common\\dtos\\response\\paymentres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.common\\dtos\\request\\orderreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|solutionrelative:vnpaysystem.common\\dtos\\request\\orderreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.common\\dtos\\response\\vnpayres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C29B62A-5220-40B1-973E-018EDF075E20}|VNPAYSystem.Common\\VNPAYSystem.Common.csproj|solutionrelative:vnpaysystem.common\\dtos\\response\\vnpayres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.service\\helper\\vnpaylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|solutionrelative:vnpaysystem.service\\helper\\vnpaylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.service\\helper\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|solutionrelative:vnpaysystem.service\\helper\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.service\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|solutionrelative:vnpaysystem.service\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 402,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,7 +78,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "PaymentsController.cs",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.API\\Controllers\\PaymentsController.cs",
+              "RelativeDocumentMoniker": "VNPAYSystem.API\\Controllers\\PaymentsController.cs",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.API\\Controllers\\PaymentsController.cs",
+              "RelativeToolTip": "VNPAYSystem.API\\Controllers\\PaymentsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:29:51.832Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "VNPAYSystem.API\\Controllers\\OrdersController.cs",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "VNPAYSystem.API\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T17:29:50.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserDto.cs",
               "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "VNPAYSystem.Common\\DTOs\\UserDto.cs",
@@ -83,46 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\LoginDto.cs",
-              "RelativeDocumentMoniker": "VNPAYSystem.Common\\DTOs\\LoginDto.cs",
-              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\LoginDto.cs",
-              "RelativeToolTip": "VNPAYSystem.Common\\DTOs\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T13:41:01.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\OrderDto.cs",
-              "RelativeDocumentMoniker": "VNPAYSystem.Common\\DTOs\\OrderDto.cs",
-              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\OrderDto.cs",
-              "RelativeToolTip": "VNPAYSystem.Common\\DTOs\\OrderDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T12:29:53.626Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaymentDto.cs",
-              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\PaymentDto.cs",
-              "RelativeDocumentMoniker": "VNPAYSystem.Common\\DTOs\\PaymentDto.cs",
-              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\PaymentDto.cs",
-              "RelativeToolTip": "VNPAYSystem.Common\\DTOs\\PaymentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T12:21:35.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Payment.cs",
               "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\Models\\Payment.cs",
               "RelativeDocumentMoniker": "VNPAYSystem.Data\\Models\\Payment.cs",
@@ -130,12 +125,11 @@
               "RelativeToolTip": "VNPAYSystem.Data\\Models\\Payment.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAuwAcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T12:21:25.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T12:21:25.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "OrderReq.cs",
               "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\Request\\OrderReq.cs",
               "RelativeDocumentMoniker": "VNPAYSystem.Common\\DTOs\\Request\\OrderReq.cs",
@@ -143,12 +137,11 @@
               "RelativeToolTip": "VNPAYSystem.Common\\DTOs\\Request\\OrderReq.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T11:21:20.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T11:21:20.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "PaymentRes.cs",
               "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\Response\\PaymentRes.cs",
               "RelativeDocumentMoniker": "VNPAYSystem.Common\\DTOs\\Response\\PaymentRes.cs",
@@ -161,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "VNPayRes.cs",
               "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\Response\\VNPayRes.cs",
               "RelativeDocumentMoniker": "VNPAYSystem.Common\\DTOs\\Response\\VNPayRes.cs",
@@ -174,7 +167,69 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VnPayService.cs",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\Helper\\VnPayService.cs",
+              "RelativeDocumentMoniker": "VNPAYSystem.Service\\Helper\\VnPayService.cs",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\Helper\\VnPayService.cs",
+              "RelativeToolTip": "VNPAYSystem.Service\\Helper\\VnPayService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwG8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T11:15:44.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\PaymentService.cs",
+              "RelativeDocumentMoniker": "VNPAYSystem.Service\\PaymentService.cs",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\PaymentService.cs",
+              "RelativeToolTip": "VNPAYSystem.Service\\PaymentService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAUwFcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T10:03:10.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "VNPAYSystem.Common\\DTOs\\PaymentDto.cs",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\PaymentDto.cs",
+              "RelativeToolTip": "VNPAYSystem.Common\\DTOs\\PaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T12:21:35.608Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\OrderDto.cs",
+              "RelativeDocumentMoniker": "VNPAYSystem.Common\\DTOs\\OrderDto.cs",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\OrderDto.cs",
+              "RelativeToolTip": "VNPAYSystem.Common\\DTOs\\OrderDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T12:29:53.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "VNPAYSystem.Common\\DTOs\\LoginDto.cs",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "VNPAYSystem.Common\\DTOs\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T13:41:01.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "VnPayLib.cs",
               "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\Helper\\VnPayLib.cs",
               "RelativeDocumentMoniker": "VNPAYSystem.Service\\Helper\\VnPayLib.cs",
@@ -182,34 +237,7 @@
               "RelativeToolTip": "VNPAYSystem.Service\\Helper\\VnPayLib.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T11:15:46.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "VnPayService.cs",
-              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\Helper\\VnPayService.cs",
-              "RelativeDocumentMoniker": "VNPAYSystem.Service\\Helper\\VnPayService.cs",
-              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\Helper\\VnPayService.cs",
-              "RelativeToolTip": "VNPAYSystem.Service\\Helper\\VnPayService.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowG8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T11:15:44.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PaymentService.cs",
-              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\PaymentService.cs",
-              "RelativeDocumentMoniker": "VNPAYSystem.Service\\PaymentService.cs",
-              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\PaymentService.cs",
-              "RelativeToolTip": "VNPAYSystem.Service\\PaymentService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwKIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T10:03:10.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-04T11:15:46.019Z"
             }
           ]
         }
