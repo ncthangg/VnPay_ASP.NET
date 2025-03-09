@@ -1,0 +1,25 @@
+name: Vnpay
+
+on:
+  push:
+    branches:
+      - main
+#update something to test v7
+jobs:
+  compose:
+    runs-on: self-hosted
+    environment: docker
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Run `docker compose`
+      run: |   
+        docker compose up --build -d
+        docker ps -a   
+        docker compose logs --tail 100
+      timeout-minutes: 15
+
+    - name: Tear down (if necessary)
+      if: failure()
+      run: sudo docker compose down
