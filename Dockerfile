@@ -44,9 +44,14 @@ RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
 # or SHA (e.g., mcr.microsoft.com/dotnet/aspnet@sha256:f3d99f54d504a21d38e4cc2f13ff47d67235efeeb85c109d3d1ff1808b38d034).
 FROM mcr.microsoft.com/dotnet/aspnet:8.0-alpine AS final
 WORKDIR /app
-
+RUN apk add icu-libs
+ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=false
 # Copy everything needed to run the app from the "build" stage.
 COPY --from=build /app .
+VOLUME /app/wwwroot
+
+USER root
+RUN mkdir -p /app/wwwroot && chmod -R 777 /app/wwwroot
 
 # Switch to a non-privileged user (defined in the base image) that the app will run under.
 # See https://docs.docker.com/go/dockerfile-user-best-practices/
