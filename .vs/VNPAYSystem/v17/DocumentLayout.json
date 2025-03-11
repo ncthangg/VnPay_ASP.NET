@@ -1,17 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\",
+  "WorkspaceRootPath": "E:\\MyProject\\VNPAY\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.service\\helper\\vnpaylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|solutionrelative:vnpaysystem.service\\helper\\vnpaylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B635777D-A9A0-4B76-A39C-5497E2419853}|VNPAYSystem.Data\\VNPAYSystem.Data.csproj|e:\\myproject\\vnpay\\vnpaysystem.data\\dbcontext\\vnpay_testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B635777D-A9A0-4B76-A39C-5497E2419853}|VNPAYSystem.Data\\VNPAYSystem.Data.csproj|solutionrelative:vnpaysystem.data\\dbcontext\\vnpay_testdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.service\\helper\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD92BD3A-5B06-4C1D-BE9E-821865AFA28F}|VNPAYSystem.API\\VNPAYSystem.API.csproj|e:\\myproject\\vnpay\\vnpaysystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD92BD3A-5B06-4C1D-BE9E-821865AFA28F}|VNPAYSystem.API\\VNPAYSystem.API.csproj|solutionrelative:vnpaysystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|e:\\myproject\\vnpay\\vnpaysystem.service\\helper\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|solutionrelative:vnpaysystem.service\\helper\\vnpayservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|e:\\myproject\\vnpay\\vnpaysystem\\vnpaysystem.service\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|e:\\myproject\\vnpay\\vnpaysystem.service\\helper\\vnpaylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|solutionrelative:vnpaysystem.service\\helper\\vnpaylib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|e:\\myproject\\vnpay\\vnpaysystem.service\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{92AD7B72-2AB1-4B4E-B89A-8A73616E45BC}|VNPAYSystem.Service\\VNPAYSystem.Service.csproj|solutionrelative:vnpaysystem.service\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -21,8 +29,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 479,
-          "SelectedChildIndex": 4,
+          "DockedWidth": 684,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,26 +46,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PaymentService.cs",
-              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\PaymentService.cs",
-              "RelativeDocumentMoniker": "VNPAYSystem.Service\\PaymentService.cs",
-              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\PaymentService.cs",
-              "RelativeToolTip": "VNPAYSystem.Service\\PaymentService.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAgwFgAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "VNPAY_TestDBContext.cs",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\DBContext\\VNPAY_TestDBContext.cs",
+              "RelativeDocumentMoniker": "VNPAYSystem.Data\\DBContext\\VNPAY_TestDBContext.cs",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\DBContext\\VNPAY_TestDBContext.cs",
+              "RelativeToolTip": "VNPAYSystem.Data\\DBContext\\VNPAY_TestDBContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCcAAAC1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T07:41:05.218Z",
+              "WhenOpened": "2025-03-11T12:30:29.281Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem.API\\appsettings.json",
+              "RelativeDocumentMoniker": "VNPAYSystem.API\\appsettings.json",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem.API\\appsettings.json",
+              "RelativeToolTip": "VNPAYSystem.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-11T12:29:20.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\PaymentService.cs",
+              "RelativeDocumentMoniker": "VNPAYSystem.Service\\PaymentService.cs",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\PaymentService.cs",
+              "RelativeToolTip": "VNPAYSystem.Service\\PaymentService.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAgwFgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T07:41:05.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "VnPayService.cs",
-              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\Helper\\VnPayService.cs",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\Helper\\VnPayService.cs",
               "RelativeDocumentMoniker": "VNPAYSystem.Service\\Helper\\VnPayService.cs",
-              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\Helper\\VnPayService.cs",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\Helper\\VnPayService.cs",
               "RelativeToolTip": "VNPAYSystem.Service\\Helper\\VnPayService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAA5wEIAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwEIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-04T11:15:44.695Z",
               "EditorCaption": ""
@@ -65,16 +98,16 @@
           ]
         },
         {
-          "DockedWidth": 403,
+          "DockedWidth": 198,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "VnPayLib.cs",
-              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\Helper\\VnPayLib.cs",
+              "DocumentMoniker": "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\Helper\\VnPayLib.cs",
               "RelativeDocumentMoniker": "VNPAYSystem.Service\\Helper\\VnPayLib.cs",
-              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\Helper\\VnPayLib.cs",
+              "ToolTip": "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\Helper\\VnPayLib.cs",
               "RelativeToolTip": "VNPAYSystem.Service\\Helper\\VnPayLib.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAgwCMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

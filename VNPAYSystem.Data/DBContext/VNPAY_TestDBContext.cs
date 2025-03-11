@@ -37,7 +37,7 @@ public partial class VNPAY_TestDBContext : DbContext
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer(GetConnectionString("DefaultConnection")).UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
+        => optionsBuilder.UseSqlServer("Data Source=14.225.198.138,1433;Initial Catalog=VNPAY_TestDB;User ID=sa;Password=Itjustapassword1@;TrustServerCertificate=True;Encrypt=false;").UseQueryTrackingBehavior(QueryTrackingBehavior.NoTracking);
 
     //    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.

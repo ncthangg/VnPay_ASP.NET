@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj": {}
+    "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj": {}
   },
   "projects": {
-    "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj": {
+    "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj",
+        "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj",
         "projectName": "VNPAYSystem.Data",
-        "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj",
+        "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\obj\\",
+        "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

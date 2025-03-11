@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VNPAYSystem.Common")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae617809a02de8f634e800ca7ae874694f262a77")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b17c90427be54ea033db2bfff9473dffa10880ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("VNPAYSystem.Common")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VNPAYSystem.Common")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

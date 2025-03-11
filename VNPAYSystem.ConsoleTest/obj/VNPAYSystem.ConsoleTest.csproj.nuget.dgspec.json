@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.ConsoleTest\\VNPAYSystem.ConsoleTest.csproj": {}
+    "E:\\MyProject\\VNPAY\\VNPAYSystem.ConsoleTest\\VNPAYSystem.ConsoleTest.csproj": {}
   },
   "projects": {
-    "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\VNPAYSystem.Common.csproj": {
+    "E:\\MyProject\\VNPAY\\VNPAYSystem.Common\\VNPAYSystem.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\VNPAYSystem.Common.csproj",
+        "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem.Common\\VNPAYSystem.Common.csproj",
         "projectName": "VNPAYSystem.Common",
-        "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\VNPAYSystem.Common.csproj",
+        "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Common\\VNPAYSystem.Common.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\obj\\",
+        "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj": {
-                "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj"
+              "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj": {
+                "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.ConsoleTest\\VNPAYSystem.ConsoleTest.csproj": {
+    "E:\\MyProject\\VNPAY\\VNPAYSystem.ConsoleTest\\VNPAYSystem.ConsoleTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.ConsoleTest\\VNPAYSystem.ConsoleTest.csproj",
+        "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem.ConsoleTest\\VNPAYSystem.ConsoleTest.csproj",
         "projectName": "VNPAYSystem.ConsoleTest",
-        "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.ConsoleTest\\VNPAYSystem.ConsoleTest.csproj",
+        "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.ConsoleTest\\VNPAYSystem.ConsoleTest.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.ConsoleTest\\obj\\",
+        "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.ConsoleTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,8 +94,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\VNPAYSystem.Service.csproj": {
-                "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\VNPAYSystem.Service.csproj"
+              "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\VNPAYSystem.Service.csproj": {
+                "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\VNPAYSystem.Service.csproj"
               }
             }
           }
@@ -134,14 +134,14 @@
         }
       }
     },
-    "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj": {
+    "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj",
+        "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj",
         "projectName": "VNPAYSystem.Data",
-        "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj",
+        "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\obj\\",
+        "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -219,14 +219,14 @@
         }
       }
     },
-    "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\VNPAYSystem.Service.csproj": {
+    "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\VNPAYSystem.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\VNPAYSystem.Service.csproj",
+        "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\VNPAYSystem.Service.csproj",
         "projectName": "VNPAYSystem.Service",
-        "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\VNPAYSystem.Service.csproj",
+        "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\VNPAYSystem.Service.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Service\\obj\\",
+        "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -244,11 +244,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\VNPAYSystem.Common.csproj": {
-                "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Common\\VNPAYSystem.Common.csproj"
+              "E:\\MyProject\\VNPAY\\VNPAYSystem.Common\\VNPAYSystem.Common.csproj": {
+                "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Common\\VNPAYSystem.Common.csproj"
               },
-              "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj": {
-                "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj"
+              "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj": {
+                "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.Data\\VNPAYSystem.Data.csproj"
               }
             }
           }

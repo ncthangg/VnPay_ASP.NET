@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R0cI5pQi3+w=",
+  "dgSpecHash": "FH89Ega16Zw=",
   "success": true,
-  "projectFilePath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.ConsoleTest\\VNPAYSystem.ConsoleTest.csproj",
+  "projectFilePath": "E:\\MyProject\\VNPAY\\VNPAYSystem.ConsoleTest\\VNPAYSystem.ConsoleTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = VNPAYSystem.ConsoleTest
-build_property.ProjectDir = E:\MyProject\VNPAY\VNPAYSystem\VNPAYSystem.ConsoleTest\
+build_property.ProjectDir = E:\MyProject\VNPAY\VNPAYSystem.ConsoleTest\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

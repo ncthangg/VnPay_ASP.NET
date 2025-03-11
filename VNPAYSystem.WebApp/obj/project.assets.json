@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.WebApp\\VNPAYSystem.WebApp.csproj",
+      "projectUniqueName": "E:\\MyProject\\VNPAY\\VNPAYSystem.WebApp\\VNPAYSystem.WebApp.csproj",
       "projectName": "VNPAYSystem.WebApp",
-      "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.WebApp\\VNPAYSystem.WebApp.csproj",
+      "projectPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.WebApp\\VNPAYSystem.WebApp.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem\\VNPAYSystem.WebApp\\obj\\",
+      "outputPath": "E:\\MyProject\\VNPAY\\VNPAYSystem.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
